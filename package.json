@@ -50,7 +50,8 @@
     "theme"
   ],
   "scripts": {
-    "lint": "eslint --quiet '**/*.js'"
+    "lint": "eslint --quiet '**/*.js'",
+    "update": "ncu --configFileName .ncurc.json && npm install"
   },
   "lint-staged": {
     "**/*.js": [

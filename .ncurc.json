@@ -1,0 +1,9 @@
+{
+	"upgrade": true,
+	"filter": "express",
+	"reject": [
+		"eslint",
+		"husky",
+		"lint-staged"
+	]
+}
